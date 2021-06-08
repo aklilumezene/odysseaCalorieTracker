@@ -1,4 +1,4 @@
-.metric-item {
+.meal-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,7 @@
     background-color: #ff7b25;
 }
 
-.metric-item__metric {
+.meal-item__meal {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -18,14 +18,14 @@
     flex: 1;
 }
 
-.metric-item h3 {
+.meal-item h3 {
     font-size: 1rem;
     flex: 1;
     color: white;
     margin: 0px;
 }
 
-.metric-item__count {
+.meal-item__calories {
     font-size: 1rem;
     font-weight: bold;
     color: white;
@@ -35,7 +35,7 @@
     border-radius: 12px;
 }
 
-.metric-item__date {
+.meal-item__date {
     font-size: 1rem;
     color: white;
     background-color: #6b5b95;
@@ -53,12 +53,27 @@
         flex: 1;
     }
 
-    .metric-item h3 {
+    .meal-item h3 {
         font-size: 1.25rem;
     }
 
-    .metric-item__count {
+    .meal-item__calories {
         font-size: 1.25rem;
         padding: 0.5rem 1.5rem;
     }
+}
+
+.meal-item__fat {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.meal-item__protein {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.meal-item__carbs {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
 }
