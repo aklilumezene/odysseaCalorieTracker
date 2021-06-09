@@ -29,7 +29,37 @@
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: #d64161;
+    background-color: #af15ca59;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+.meal-item__fat {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #dfee12;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+.meal-item__protein {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4d4dff    ;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+.meal-item__carbs {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #41d648;
     border: 1px solid white;
     padding: 0.5rem;
     border-radius: 12px;
@@ -46,7 +76,7 @@
 }
 
 @media (min-width: 580px) {
-    .metric-item__metric {
+    .meal-item__meal {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
