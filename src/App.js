@@ -41,12 +41,21 @@ function App() {
     {
       date: new Date(2021, 5, 9, 12, 10, 0, 0),
       meal: "Lunch",
-      food: "omelet",
+      food: "Omelette",
       calories: 176.3,
       fat: 13.9,
       protein: 11.7,
       carbs: 0.8,
     },
+    {
+      date: new Date(2021, 5, 9, 20, 0, 0, 0),
+      meal: "Dinner",
+      food: "Chicken",
+      calories: 222.6,
+      fat: 12.9,
+      protein: 23.7,
+      carbs: 0, 
+    }
   ];
 
   return (
