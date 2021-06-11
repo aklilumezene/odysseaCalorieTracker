@@ -53,7 +53,7 @@ function App() {
       food: "Chicken",
       calories: 222.6,
       fat: 12.9,
-      protein: 23.7,
+      protein: 23.,
       carbs: 0, 
     }
   ];
