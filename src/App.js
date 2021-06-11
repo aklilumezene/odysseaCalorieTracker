@@ -106,6 +106,15 @@ function App() {
         protein={meals[4].protein}
         carbs={meals[4].carbs}
       />
+      <MealItem
+      date={meals[5].date}
+      meal={meals[5].meal}
+      food={meals[5].food}
+      calories={meals[5].calories}
+      fat={meals[5].fat}
+      protein={meals[5].protein}
+      carbs={meals[5].carbs}
+      />
     </div>
   );
 }
