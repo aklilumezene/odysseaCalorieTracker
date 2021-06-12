@@ -3,7 +3,7 @@ import MealItem from "./components/MealItem";
 function App() {
   const meals = [
     {
-      date: new Date(2021, 5, 10, 17, 45, 0, 0),
+      date: new Date(2021, 5, 10, 17, 0, 0, 0),
       meal: "Breakfast",
       food: "Cookie",
       calories: 100,
